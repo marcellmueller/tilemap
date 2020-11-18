@@ -1,0 +1,48 @@
+body {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+#grid {
+  display: grid;
+  width: 20em;
+  height: 20em;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.gridSquares {
+  width: 4em;
+  height: 4em;
+}
+
+#playerGIF {
+  width: 16px;
+  height: 16px;
+  zoom: 1;
+  transform: scale(1);
+}
+
+#gameBoy {
+  display: grid;
+  justify-content: center;
+  padding: 4em;
+  width: 30em;
+  height: 50em;
+  background-color: darkgray;
+  border-radius: 20px;
+  border-bottom-right-radius: 80px;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+#gameBoyScreen {
+  background-color: gray;
+  height: 20em;
+  width: 20em;
+  padding: 4em;
+  border-style: solid;
+  border-radius: 20px;
+  border-bottom-right-radius: 60px;
+}

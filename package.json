@@ -1,0 +1,18 @@
+{
+  "name": "stretch-project-1",
+  "version": "0.0.0",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-lighthouselabs": "github:lighthouse-labs/eslint-config-lighthouselabs",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
